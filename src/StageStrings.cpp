@@ -70,10 +70,18 @@ char* moddedStageToTitle(const char* stageName) {
 	}
 
 	std::string strStageName = std::string(stageName);
+
+	// Fall From Grace
 	if (strStageName == "Boiler" || strStageName == "Boiler 2" || strStageName == "Boiler XL") {
 		return "Boiling in the Boiler";
 	}
 
+	if (strStageName == "Grotto" || strStageName == "Grotto 2" || strStageName == "Grotto XL")
+	{
+		return "Wading through the Grotto";
+	}
+	
+	// Revelations
 	if (strStageName == "Glacier" || strStageName == "Glacier 2" || strStageName == "Glacier XL") {
 		return "Slipping through Glacier";
 	}
@@ -82,9 +90,48 @@ char* moddedStageToTitle(const char* stageName) {
 		return "Raiding the Tomb";
 	}
 
+	// The Future
 	if (strStageName == "The Future" || strStageName == "The Future 2" || strStageName == "The Future XL") {
 		return "Seeing into The Future";
 	}
+
+	// Last Judgement
+	if (strStageName == "Mortis" || strStageName == "Mortis 2" || strStageName == "Mortis XL")
+	{
+		return "Treading the Silent Path of Mortis";
+	}
+
+	// Fiend Folio
+	if (strStageName == "Lab") {
+		return "Unveiling Mysteries in The Lab";
+	}
+
+	if (strStageName == "MorbusReal")
+	{
+		return "Escaping the Contagion of Morbus";
+	}
+
+	if (strStageName == "Stony Level") {
+		return "Enduring the Rocky Terrain of the Stony Level";
+	}
+
+	// Godmode Ascended
+	if (strStageName == "FruitCellar") {
+		return "Harvesting Secrets in the Fruit Cellar";
+	}
+
+	if (strStageName == "TheNest") {
+		return "Creeping Through the Twisted Nest";
+	}
+
+	if (strStageName == "Colon") {
+		return "Traversing the Gut of the Colon";
+	}
+
+	if (strStageName == "IvoryPalace") {
+		return "Walking the Halls of the Ivory Palace";
+	}
+	
 
 	// Default
 	return "Exploring the unknown depths below";
