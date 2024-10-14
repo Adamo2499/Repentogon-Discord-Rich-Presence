@@ -17,7 +17,12 @@ char* moddedPlayerToPortrait(const char* name, bool isTainted) {
 	}
 	// Sheriff
 	else if (strName == "The Sheriff") {
-		return "playerportrait_sheriff";
+		if (isTainted) {
+			return "playerportrait_sheriff_b";
+		}
+		else {
+			return "playerportrait_sheriff";
+		}
 	}
 	// Fiend Folio
 	else if (strName == "Fiend") {
