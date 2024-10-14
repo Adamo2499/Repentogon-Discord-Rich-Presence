@@ -101,6 +101,7 @@ ActivityAssets = {
     PLAYER_SAMAEL_TAINTED = "playerportrait_samael_b",
     PLAYER_SARAH = "playerportrait_sarah",
     PLAYER_SHERIFF = "playerportrait_sheriff",
+    PLAYER_SHERIFF_TAINTED = "playerportrait_sheriff_b",
     PLAYER_SODOM_GOMORRAH = "playerportrait_sodomgomorrah",
     PLAYER_SODOM_GOMORRAH_TAINTED = "playerportrait_sodomgomorrah_b",
     PLAYER_DREAM_GUARD = "playerportrait_thedreamguard",
