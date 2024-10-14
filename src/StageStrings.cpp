@@ -98,40 +98,39 @@ char* moddedStageToTitle(const char* stageName) {
 	// Last Judgement
 	if (strStageName == "Mortis" || strStageName == "Mortis 2" || strStageName == "Mortis XL")
 	{
-		return "Treading the Silent Path of Mortis";
+		return "Treading the silent path of Mortis";
 	}
 
 	// Fiend Folio
 	if (strStageName == "Lab") {
-		return "Unveiling Mysteries in The Lab";
+		return "Unveiling mysteries in The Lab";
 	}
 
 	if (strStageName == "MorbusReal")
 	{
-		return "Escaping the Contagion of Morbus";
+		return "Escaping the contagion of Morbus";
 	}
 
 	if (strStageName == "Stony Level") {
-		return "Enduring the Rocky Terrain of the Stony Level";
+		return "Enduring the rocky terrain of the Stony Level";
 	}
 
 	// Godmode Ascended
 	if (strStageName == "FruitCellar") {
-		return "Harvesting Secrets in the Fruit Cellar";
+		return "Harvesting secrets in the Fruit Cellar";
 	}
 
 	if (strStageName == "TheNest") {
-		return "Creeping Through the Twisted Nest";
+		return "Creeping through the twisted Nest";
 	}
 
 	if (strStageName == "Colon") {
-		return "Traversing the Gut of the Colon";
+		return "Traversing the gut of the Colon";
 	}
 
 	if (strStageName == "IvoryPalace") {
-		return "Walking the Halls of the Ivory Palace";
+		return "Walking the halls of the Ivory Palace";
 	}
-	
 
 	// Default
 	return "Exploring the unknown depths below";
