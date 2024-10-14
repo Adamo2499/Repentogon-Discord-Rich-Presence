@@ -179,6 +179,18 @@ HOOK_METHOD(MenuManager, Render, () -> void) {
 	case 9:
 		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Checking stats");
 		break;
+	case 10:
+		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Selecting options");
+		break;
+	case 11:
+		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Checking out controls");
+		break;
+	case 12:
+		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Configuring controls");
+		break;
+	case 13:
+		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Watching endings ");
+		break;
 	case 14:
 		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Reminiscing on enemies fought");
 		break;
@@ -187,6 +199,9 @@ HOOK_METHOD(MenuManager, Render, () -> void) {
 		break;
 	case 16:
 		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Viewing their enabled mods");
+		break;
+	case 17:
+		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Entering seed");
 		break;
 	default:
 		discordAPI.SetState(numToTitleIcon(currentMenuIcon), "Browsing menus", "Browsing the main menu");
