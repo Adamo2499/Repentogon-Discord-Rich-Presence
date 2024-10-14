@@ -91,7 +91,7 @@ char* moddedStageToTitle(const char* stageName) {
 	}
 
 	// The Future
-	if (strStageName == "The Future" || strStageName == "The Future 2" || strStageName == "The Future XL") {
+	if (strStageName == "The Future") {
 		return "Seeing into The Future";
 	}
 
